@@ -46,7 +46,10 @@ git clone https://github.com/insourcedata/cxs-eval
 cd cxs-eval
 
 # Install dependencies
+
+export PATH="$HOME/.local/bin:$PATH"
 uv sync
+source $HOME/.local/bin/env
 ```
 
 ## 3. Neo4j Database Setup
