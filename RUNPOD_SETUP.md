@@ -50,6 +50,7 @@ cd cxs-eval
 export PATH="$HOME/.local/bin:$PATH"
 uv sync
 source $HOME/.local/bin/env
+uv pip install -p .venv ipykernel -U
 ```
 
 ## 3. Neo4j Database Setup
